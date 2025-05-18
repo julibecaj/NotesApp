@@ -28,6 +28,7 @@
         android:layout_width="393dp"
         android:layout_height="493dp"
         android:layout_marginBottom="88dp"
+        android:choiceMode="multipleChoice"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -37,9 +38,11 @@
         android:id="@+id/micButton"
         android:layout_width="143dp"
         android:layout_height="48dp"
+        android:backgroundTint="@color/bojqielli"
         android:drawableBottom="@drawable/baseline_mic_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/listView" />
+        app:layout_constraintTop_toBottomOf="@+id/listView"
+        app:layout_constraintVertical_bias="0.6" />
 </androidx.constraintlayout.widget.ConstraintLayout>
