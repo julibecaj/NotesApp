@@ -32,11 +32,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
+
     <Button
-        android:id="@+id/button"
+        android:id="@+id/micButton"
         android:layout_width="143dp"
         android:layout_height="48dp"
-        android:text="Button"
+        android:drawableBottom="@drawable/baseline_mic_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">NotesApp</string>
     <string name="name">SayDone</string>
-
+    <string name="baseline_mic_24.xml">Microphone Button</string>
 </resources>
